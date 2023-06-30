@@ -14,7 +14,7 @@ body {
 }
 
 .jumbotron {
-    background-image: url(/img/toppimagen.jpg);
+    background-image: url(../img/toppimagen.jpg);
     background-size: cover;
     border-radius: 0%;
     margin-bottom: 0;
