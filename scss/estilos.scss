@@ -263,40 +263,34 @@ button[type="submit"]:hover {
   height: 20px;
 }
 
-header{
+header {
   display: flex;
   justify-content: space-between;
-  padding: 20px
+  padding: 20px;
 }
 
-.icon-cart{
-  width: 30px;
-  height: 30px;
+.conteiner-icon {
+  position: relative;
+}
+
+.count-products {
+  display: flex;
+  background-color: var(--color1);
+  color: var(--color3);
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .icon-cart :hover{
   cursor: pointer;
   }
-
-header{
-  display: flex;
-  justify-content: space-between;
-  padding: 20px
-}
-
-.count-products{
-  position: absolute;
-  top: 15%;
-  right: 10px;
-  background-color: var(--color1);
-  color: var(--color3);
-  width: 20px;
-  height: 20px;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  border-radius: 50%;
-}
 
 .container h2{
   text-align: center;
