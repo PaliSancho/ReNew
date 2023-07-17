@@ -116,6 +116,7 @@ body {
 
 .card-img-top {
   height: 200px;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -169,11 +170,11 @@ button[type=submit] {
 }
 
 button[type=submit]:hover {
-  background-color: var(--color2);
+  background-color: var(--color1);
 }
 
 .container {
-  max-width: 600%;
+  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -196,7 +197,6 @@ button[type=submit]:hover {
   flex-wrap: wrap;
   gap: 16px;
   max-width: 800px;
-  margin-top: 5px;
 }
 
 .cardcategorias {
@@ -248,56 +248,44 @@ button[type=submit]:hover {
   height: auto;
 }
 
-.icon-cart{
+.icon-cart {
   width: 20px;
   height: 20px;
 }
 
-
-header{
+header {
   display: flex;
   justify-content: space-between;
-  padding: 20px
+  padding: 20px;
 }
 
-.icon-cart{
-  width: 30px;
-  height: 30px;
+.conteiner-icon {
+  position: relative;
 }
 
-.icon-cart :hover{
+.count-products {
+  display: flex;
+  background-color: var(--color1);
+  color: var(--color3);
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.icon-cart :hover {
   cursor: pointer;
-  }
+}
 
-  header {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
-  .conteiner-icon {
-    position: relative;
-  }
-  
-  .count-products {
-    display: flex;
-    background-color: var(--color1);
-    color: var(--color3);
-    width: 20px;
-    height: 20px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    margin-left: 10px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  
-  .icon-cart :hover{
-    cursor: pointer;
-    }
-
-.container h2{
+.container h2 {
   text-align: center;
+}
+
+.highlight {
+  color: var(--color1);
 }
