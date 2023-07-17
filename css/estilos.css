@@ -286,3 +286,7 @@ header{
   align-items: center;
   border-radius: 50%;
 }
+
+.container h2{
+  text-align: center;
+}
