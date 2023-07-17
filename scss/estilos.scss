@@ -184,7 +184,7 @@ button[type="submit"]:hover {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -258,3 +258,44 @@ button[type="submit"]:hover {
   height: auto;
 }
 
+.icon-cart{
+  width: 20px;
+  height: 20px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px
+}
+
+.icon-cart{
+  width: 30px;
+  height: 30px;
+}
+
+.icon-cart :hover{
+  cursor: pointer;
+  }
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px
+}
+
+.count-products{
+  position: absolute;
+  top: 15%;
+  right: 10px;
+  background-color: var(--color1);
+  color: var(--color3);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=estilos.css.map */
