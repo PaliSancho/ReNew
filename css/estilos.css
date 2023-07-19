@@ -213,14 +213,6 @@ button[type=submit]:hover {
   flex: 0.25;
 }
 
-.container {
-  margin-bottom: 50px; /* Ajusta el margen inferior del contenedor según tus necesidades */
-}
-
-.title {
-  margin-bottom: -50px; /* Ajusta el margen inferior del título según tus necesidades */
-}
-
 .cardcategorias img {
   height: 360px;
 }
@@ -236,7 +228,6 @@ button[type=submit]:hover {
 }
 
 .categoria-img {
-
   height: 360px;
 }
 
