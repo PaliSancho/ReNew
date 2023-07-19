@@ -50,11 +50,12 @@ html, body {
 }
 
 .btn-outline-primary {
-  color: var(--color1);
-  background-color: var(--color3);
-  border-color: var(--color1);
-  margin: 0 auto;
+  color: var(--color3);
+  background-color: var(--color1);
+  border-color: var(--color3);
+  margin: 20px auto;
   display: block;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .btn-outline-primary:hover {
@@ -84,7 +85,7 @@ body {
   background: var(--color2);
   padding-top: 10px;
   color: var(--color3);
-  margin-top: auto;
+  margin-top: 5px;
 }
 
 .fa-facebook {
@@ -263,8 +264,6 @@ button[type=submit]:hover {
   }
 }
 
-
-
 .contenedor {
   display: flex;
 }
@@ -330,6 +329,10 @@ header {
 
 .highlight {
   color: var(--color1);
+}
+
+.secciones {
+  margin-top: auto;
 }
 
 .inicio2 {
