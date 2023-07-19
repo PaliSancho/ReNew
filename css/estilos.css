@@ -85,7 +85,7 @@ body {
   background: var(--color2);
   padding-top: 10px;
   color: var(--color3);
-  margin-top: 5px;
+  margin-top: auto;
 }
 
 .fa-facebook {
@@ -157,6 +157,13 @@ input[type=password] {
   border: 1px solid var(--color1);
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+.main-vender {
+  background-image: url("/img/f"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 button[type=submit] {
@@ -231,7 +238,16 @@ button[type=submit]:hover {
   height: 360px;
 }
 
+.main-background {
+  background-image: url("/img/Frame\ 4.png"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
+.title {
+color: #e9e9e9;
+}
 
 .cardcategorias:hover {
   flex: 2;
@@ -249,6 +265,13 @@ button[type=submit]:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.main {
+  background-image: url('/img/Frame\ 3.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px; 
 }
 
 .contenido {
@@ -335,16 +358,23 @@ header {
   transform: translateY(-50%);
 }
 
+.icon-cart {
+  width: 50px; 
+  height: 30px; 
+}
+
+
 .icon-cart :hover {
   cursor: pointer;
 }
 
-.container h2 {
+.container h1 {
   text-align: center;
 }
 
 .highlight {
   color: var(--color1);
+  font-weight: 700;
 }
 
 .secciones {
