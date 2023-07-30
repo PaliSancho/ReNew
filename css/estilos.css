@@ -119,6 +119,11 @@ body {
   height: 200px;
   -o-object-fit: cover;
   object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
 }
 
 .card-title {
@@ -332,6 +337,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  margin: 16px;
 }
 
 .container {
@@ -363,10 +369,41 @@ header {
   height: 30px; 
 }
 
-
 .icon-cart :hover {
   cursor: pointer;
 }
+
+.btn-secondary {
+  background-color: var(--color1);
+  color: var(--color3);
+  border: none;
+  margin: 35px;
+}
+
+.btn-secondary:hover {
+  background-color: var(--color2);}
+
+  .btn-secondary:active {
+    background-color: var(--color2);
+  }
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-menu {
+  min-width: 100%;
+}
+
+.dropdown-item {
+  color: var(--color1);
+}
+
+.dropdown-item:hover {
+  background-color: var(--color3);
+  color: var(--color2);
+}
+
 
 .container h1 {
   text-align: center;
